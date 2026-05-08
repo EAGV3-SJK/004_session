@@ -1,0 +1,38 @@
+{
+  "prefecthq/prefab-ui": {
+    "owner": "prefecthq",
+    "name": "prefab-ui",
+    "notes": "Generative UI for Python MCP",
+    "stars": 1500,
+    "forks": 120,
+    "open_issues": 15,
+    "description": "Interactive UIs for Model Context Protocol.",
+    "html_url": "https://github.com/prefecthq/prefab-ui",
+    "language": "TypeScript",
+    "last_synced": "2026-05-08T18:00:00"
+  },
+  "django/django": {
+    "owner": "django",
+    "name": "django",
+    "notes": "",
+    "stars": 87440,
+    "forks": 33846,
+    "open_issues": 426,
+    "description": "The Web framework for perfectionists with deadlines.",
+    "html_url": "https://github.com/django/django",
+    "language": "Python",
+    "last_synced": "2026-05-08T21:01:58+00:00"
+  },
+  "facebook/react": {
+    "owner": "facebook",
+    "name": "react",
+    "notes": "",
+    "stars": 244878,
+    "forks": 51009,
+    "open_issues": 1285,
+    "description": "The library for web and native user interfaces.",
+    "html_url": "https://github.com/facebook/react",
+    "language": "JavaScript",
+    "last_synced": "2026-05-08T21:05:44+00:00"
+  }
+}
