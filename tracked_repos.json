@@ -23,16 +23,16 @@
     "language": "Python",
     "last_synced": "2026-05-08T21:01:58+00:00"
   },
-  "facebook/react": {
-    "owner": "facebook",
-    "name": "react",
+  "fastapi/fastapi": {
+    "owner": "fastapi",
+    "name": "fastapi",
     "notes": "",
-    "stars": 244878,
-    "forks": 51009,
-    "open_issues": 1285,
-    "description": "The library for web and native user interfaces.",
-    "html_url": "https://github.com/facebook/react",
-    "language": "JavaScript",
-    "last_synced": "2026-05-08T21:05:44+00:00"
+    "stars": 98023,
+    "forks": 9221,
+    "open_issues": 189,
+    "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+    "html_url": "https://github.com/fastapi/fastapi",
+    "language": "Python",
+    "last_synced": "2026-05-08T21:30:48+00:00"
   }
 }
