@@ -27,12 +27,12 @@
     "owner": "fastapi",
     "name": "fastapi",
     "notes": "",
-    "stars": 98023,
+    "stars": 98024,
     "forks": 9221,
     "open_issues": 189,
     "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
     "html_url": "https://github.com/fastapi/fastapi",
     "language": "Python",
-    "last_synced": "2026-05-08T21:30:48+00:00"
+    "last_synced": "2026-05-08T22:18:46+00:00"
   }
 }

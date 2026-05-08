@@ -35,8 +35,16 @@ from prefab_ui.actions.mcp import CallTool
 
 load_dotenv()
 
+import logging
 configure_logging(level="INFO")
 logger = get_logger("github_tracker")
+
+# Capture all logs to session.log
+file_handler = logging.FileHandler("session.log", encoding="utf-8")
+file_handler.setLevel(logging.INFO)
+file_formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+file_handler.setFormatter(file_formatter)
+logging.getLogger().addHandler(file_handler)
 from prefab_ui.app import PrefabApp
 from prefab_ui.components import Column, Heading, Text, Row, Input, Button
 from prefab_ui.components.charts import BarChart, ChartSeries

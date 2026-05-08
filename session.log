@@ -1,0 +1,42 @@
+[05/09/26 02:51:33] INFO     Starting user server on port 8000…                                                                                                                                      apps_dev.py:1737
+                    INFO     Fetching app-bridge.js from npm…                                                                                                                                        apps_dev.py:1738
+[05/09/26 02:51:37] INFO     Starting MCP server 'github-repo-tracker' with transport 'http' (stateless) on http://127.0.0.1:8000/mcp                                                                transport.py:301
+[05/09/26 02:51:37] INFO     FastMCP dev UI at http://localhost:8080                                                                                                                                 apps_dev.py:1756
+[05/09/26 02:51:55] INFO     Tool called: agent_chat(prompt='Can you add the fastapi/fastapi repository to my tracker?')                                                                 github_tracker_server.py:224
+[05/09/26 02:51:57] INFO     Tool called: track_repo(owner='fastapi', name='fastapi')                                                                                                    github_tracker_server.py:110
+[05/09/26 02:52:00] INFO     Starting MCP server 'github-repo-tracker' with transport 'http' (stateless) on http://127.0.0.1:8000/mcp                                                                transport.py:301
+[05/09/26 02:53:48] INFO     Tool called: agent_chat(prompt='Can you add the fastapi/fastapi repository to my tracker?')                                                                 github_tracker_server.py:224
+[05/09/26 02:53:51] INFO     Tool called: track_repo(owner='fastapi', name='fastapi')                                                                                                    github_tracker_server.py:110
+[05/09/26 02:53:54] INFO     Starting MCP server 'github-repo-tracker' with transport 'http' (stateless) on http://127.0.0.1:8000/mcp                                                                transport.py:301
+PS D:\sjk\eagv3\004_session> ^C
+PS D:\sjk\eagv3\004_session> ^C
+PS D:\sjk\eagv3\004_session> fastmcp dev apps github_tracker_server.py
+>>
+[05/09/26 02:57:55] INFO     Starting user server on port 8000…                                                                                                                                      apps_dev.py:1737
+                    INFO     Fetching app-bridge.js from npm…                                                                                                                                        apps_dev.py:1738
+[05/09/26 02:57:59] INFO     Starting MCP server 'github-repo-tracker' with transport 'http' (stateless) on http://127.0.0.1:8000/mcp                                                                transport.py:301
+[05/09/26 02:57:59] INFO     FastMCP dev UI at http://localhost:8080                                                                                                                                 apps_dev.py:1756
+[05/09/26 02:58:20] INFO     Tool called: show_dashboard()                                                                                                                               github_tracker_server.py:275
+[05/09/26 02:58:35] INFO     Tool called: agent_chat(prompt='remove fastapi/fastapi from repo')                                                                                          github_tracker_server.py:224
+[05/09/26 02:58:37] INFO     Tool called: untrack_repo(owner='fastapi', name='fastapi')                                                                                                  github_tracker_server.py:133
+[05/09/26 02:58:40] INFO     Starting MCP server 'github-repo-tracker' with transport 'http' (stateless) on http://127.0.0.1:8000/mcp                                                                transport.py:301
+[05/09/26 02:58:49] INFO     Tool called: show_dashboard()                                                                                                                               github_tracker_server.py:275
+[05/09/26 02:59:03] INFO     Tool called: show_dashboard()                                                                                                                               github_tracker_server.py:275
+[05/09/26 03:00:45] INFO     Tool called: agent_chat(prompt='Add fastapi/fastapi to repo')                                                                                               github_tracker_server.py:224
+[05/09/26 03:00:47] INFO     Tool called: track_repo(owner='fastapi', name='fastapi')                                                                                                    github_tracker_server.py:110
+[05/09/26 03:00:50] INFO     Starting MCP server 'github-repo-tracker' with transport 'http' (stateless) on http://127.0.0.1:8000/mcp                                                                transport.py:301
+[05/09/26 03:01:00] INFO     Tool called: show_dashboard()                                                                                                                               github_tracker_server.py:275
+[05/09/26 03:01:24] INFO     Tool called: agent_chat(prompt='Remove facebook/react from repo')                                                                                           github_tracker_server.py:224
+[05/09/26 03:01:26] INFO     Tool called: untrack_repo(owner='facebook', name='react')                                                                                                   github_tracker_server.py:133
+[05/09/26 03:01:29] INFO     Starting MCP server 'github-repo-tracker' with transport 'http' (stateless) on http://127.0.0.1:8000/mcp                                                                transport.py:301
+[05/09/26 03:01:35] INFO     Tool called: show_dashboard()                                                                                                                               github_tracker_server.py:275
+[05/09/26 03:47:04] INFO     Starting MCP server 'github-repo-tracker' with transport 'http' (stateless) on http://127.0.0.1:8000/mcp                                                                transport.py:301
+[05/09/26 03:48:04] INFO     Tool called: show_dashboard()                                                                                                                               github_tracker_server.py:283
+[05/09/26 03:48:22] INFO     Tool called: agent_chat(prompt='remove fastapi/fastapi from repo')                                                                                          github_tracker_server.py:232
+[05/09/26 03:48:24] INFO     Tool called: untrack_repo(owner='fastapi', name='fastapi')                                                                                                  github_tracker_server.py:141
+[05/09/26 03:48:27] INFO     Starting MCP server 'github-repo-tracker' with transport 'http' (stateless) on http://127.0.0.1:8000/mcp                                                                transport.py:301
+[05/09/26 03:48:35] INFO     Tool called: show_dashboard()                                                                                                                               github_tracker_server.py:283
+[05/09/26 03:48:43] INFO     Tool called: agent_chat(prompt='Can you add the fastapi/fastapi repository to my tracker?')                                                                 github_tracker_server.py:232
+[05/09/26 03:48:45] INFO     Tool called: track_repo(owner='fastapi', name='fastapi')                                                                                                    github_tracker_server.py:118
+[05/09/26 03:48:49] INFO     Starting MCP server 'github-repo-tracker' with transport 'http' (stateless) on http://127.0.0.1:8000/mcp                                                                transport.py:301
+[05/09/26 03:48:53] INFO     Tool called: show_dashboard()                                              
